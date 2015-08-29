@@ -5,16 +5,29 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+--- the staging area is the step before you make a commit, allows
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+---you can for example use the diff --staged  function, that compares the 
+last commit and the file in the staging area
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+--- for example when you want to create a slightly different version of your files, fx italian version, or try an experimental feature but still want a version that runs properly  
+
 How do the diagrams help you visualize the branch structure?
+
+--- It helps to have a diagram to know which commits you are working on and which exist
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+--- we merged the two branches, and thus added a new functioning feature to the master branch
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+
+--- automatic merging saves us a lot of hassle, but it is good that it can detect conflict so we can choose the most logical change in the merging
